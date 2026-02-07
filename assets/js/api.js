@@ -34,6 +34,14 @@ class MoviesDatabase{
             return movies
         } catch (error) {
             console.error("Failed to fetch movie:", error)
+            document.getElementById('error-message').textContent = "Something goes wrong. Please Reload your page!"
+            const nedryImg = document.getElementById("nedry");
+            if (nedryImg) {
+                console.log("Existe")
+                nedryImg.src = "assets/img/wrong.jpg"; // desde movie.js a img
+            }else{
+                console.log("error error")
+            }
             return []
         }
     }
