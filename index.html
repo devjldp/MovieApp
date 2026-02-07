@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Movie App</title>
 </head>
 <body>
-    
-    <h1>The movie App: Developing.....</h1>
+    <header>
+        <h1>The movie App: Developing.....</h1>
+    </header>
+    <main>
+        <!-- swiper -->
+         <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper" id="carousel-container">
+                <!-- Slides  created in js-->
+                <!-- <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div> -->
+                
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        
+        <div id="movies-container">
+            <p>Developing.....</p>
+        </div>
+
+
+
+
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script type="module" src="assets/js/movie.js"></script>
 </body>
 </html>
