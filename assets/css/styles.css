@@ -5,12 +5,44 @@ body {
   color: aliceblue;
 }
 
+/* space and alignment  */
 .text-center{
   text-align: center;
 }
+
+.ml-5{
+  margin-left: 5vw;
+}
+
+/* swiper  */
 
 .swiper {
   width: 90%;
   /* height: 300px; */
 }
 
+
+/* Section search  */
+
+#search-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-type{
+  text-align: end;
+}
+
+
+/* Section movies */
+
+.movies-details{
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
